@@ -174,11 +174,12 @@
   }
   .under_txt {
     font-weight: bold;
-    line-height: 1.4;
-    font-size: 8px;
+    line-height: 1.3;
+    font-size: 7px;
   }
   .phon_txt {
     font-size: 10px;
+    line-height: 1.3;
   }
   .box .cta_btn_inner.yellow_btn a {
     background-size: auto 34%;
@@ -193,7 +194,7 @@
   }
   .box_header .cta_btn_inner.yellow_btn a {
     background-size: auto 26%;
-    background-position: top calc(60% + 0px) left 14px;
+    background-position: top calc(50% + 0px) left 14px;
     line-height: 1.1;
   }
   .box_header .cta_btn_inner a::after {
@@ -206,12 +207,13 @@
   }
   .cta_txt {
     font-size: 10px;
+    line-height: 1.3;
   }
   .box_header .cta_btn_inner a {
-    padding: 16px 30px;
+    padding: 14px 30px;
   }
   .box_header .cta_btn_inner.yellow_btn a{
-    gap: 10px;
+    gap: 8px;
   }
 }
 
@@ -221,13 +223,8 @@
   }
   .box_header .cta_btn_inner.yellow_btn a {
     background-size: auto 20%;
-    background-position: top calc(60% + 0px) left 12px;
+    background-position: top calc(50% + 0px) left 12px;
     line-height: 1.1;
-  }
-  .under_txt {
-    font-weight: bold;
-    line-height: 1.3;
-    font-size: 7px;
   }
 }
 
