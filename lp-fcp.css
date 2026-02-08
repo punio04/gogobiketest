@@ -115,7 +115,7 @@
   .box .cta_btn_inner a {
     min-width: auto;
     padding: 24px 0;
-    font-size: 30px;
+    font-size: 32px;
   }
   .box .yellow_btn span {
     font-size: 10px;
@@ -134,8 +134,8 @@
     height: 100%;
   }
   .box_header .cta_btn_inner.yellow_btn a {
-    background-size: auto 30%;
-    background-position: top calc(60% + 0px) left 16px;
+    background-size: auto 26%;
+    background-position: top calc(60% + 0px) left 14px;
     line-height: 1.1;
   }
   .box_header .yellow_btn span {
