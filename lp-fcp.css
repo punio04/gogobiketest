@@ -210,11 +210,18 @@
     line-height: 1.3;
   }
   .box_header .cta_btn_inner a {
-    padding: 14px 30px;
+    padding: 0px 30px;
   }
   .box_header .cta_btn_inner.yellow_btn a{
     gap: 8px;
   }
+    .box_header .cta_btn_inner.yellow_btn a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 81px;
+    }
 }
 
 @media screen and (max-width: 400px) {
