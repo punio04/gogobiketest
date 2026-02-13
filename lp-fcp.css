@@ -5,17 +5,21 @@
 }
 
 .box_header .cta_btn_inner.yellow_btn a {
-    color: #FFFFFF;
-      background: url(./img/phone_icon.png) no-repeat left center;
-      background-color: #FF5800;
-      background-size: auto 35%;
-      background-position: top calc(60% + 0px) left 22px;
-      line-height: 0.9;
-      box-shadow: 0 4px 0 #af3d1b !important;
-      display: flex;
-      flex-direction: column;
-      gap: 3px;
-      font-size: 19px;
+  color: #FFFFFF;
+  background: url(./img/phone_icon.png) no-repeat left center;
+  background-color: #FF5800;
+  background-size: auto 35%;
+  background-position: top calc(60% + 0px) left 10px;
+  line-height: 0.9;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 19px;
+  border: 1px solid #ff5800;
+  padding: 0 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
 }
 .wonder-header .wonder-header-inner .wonder-header-cta-wrapper .wonder-header-block,
 .wonder-header .wonder-header-inner .wonder-header-cta-wrapper .wonder-header-button-block-wrapper {
@@ -26,16 +30,17 @@
 }
 
 .box .cta_btn_inner.yellow_btn a {
-    color: #FFFFFF;
-      background: url(./img/phone_icon.png) no-repeat left center;
-      background-color: #FF5800;
-      background-size: auto 32%;
-      background-position: top calc(60% + 0px) left 16px;
-      line-height: 1;
-      display: flex;
-      gap: 6px;
-      box-shadow: 0 4px 0 #af3d1b !important;
-      flex-direction: column;
+  color: #FFFFFF;
+  background: url(./img/phone_icon.png) no-repeat left center;
+  background-color: #FF5800;
+  background-size: auto 32%;
+  background-position: top calc(60% + 0px) left 16px;
+  line-height: 1;
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+  border: 1px solid #ff5800;
+  border-radius: 4px;
 }
 
 .box .cta_btn_inner a::after {
@@ -52,16 +57,17 @@
 }
 
 .box .cta_btn_inner a {
-  display: block;
-  width: 100%;
-  min-width: 360px;
-  padding: 12px 0;
-  border-radius: 100px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 20px;
-  position: relative;
-  z-index: 0;
+    display: block;
+      width: 100%;
+      min-width: 360px;
+      padding: 10px 0;
+      border-radius: 100px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+      position: relative;
+      z-index: 0;
+      height: 100%;
 }
 
 .box .under_txt {
@@ -71,15 +77,16 @@
 }
 
 .box_header .cta_btn_inner a {
-    display: block;
-      width: 100%;
-      padding: 8px 50px;
-      border-radius: 100px;
-      text-align: center;
-      font-weight: bold;
-      font-size: 17px;
-      position: relative;
-      z-index: 0;
+  display: block;
+  width: 100%;
+  padding: 8px 50px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  position: relative;
+  z-index: 0;
+  height: 68px;
 }
 
 .content a {
@@ -119,7 +126,7 @@
   border-right: 2px solid;
   position: absolute;
   top: 50%;
-  right: 26px;
+  right: 10px;
   transform: translateY(-50%) rotate(45deg);
 }
 
@@ -220,11 +227,17 @@
       justify-content: center;
       height: 81px;
     }
+
+    .wonder-header .wonder-cv-button-block {
+      height: 81px;
+      margin-left: 10px;
+      width: 170px!important;
+    }
 }
 
 @media screen and (max-width: 400px) {
   .box_header .cta_btn_inner a {
-    width: 210px;
+    width: 180px;
   }
   .box_header .cta_btn_inner.yellow_btn a {
     background-size: auto 20%;
@@ -235,6 +248,11 @@
 
 @media screen and (max-width: 340px) {
   .box_header .cta_btn_inner a {
-    width: 200px;
+    width: 170px;
   }
+    .wonder-header .wonder-cv-button-block {
+      height: 81px;
+      margin-left: 10px;
+      width: 170px !important;
+    }
 }
