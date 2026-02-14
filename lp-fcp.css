@@ -4,6 +4,8 @@
   margin-left: 10px;
 }
 
+
+
 .box_header .cta_btn_inner.yellow_btn a {
   color: #FFFFFF;
   background: url(./img/phone_icon.png) no-repeat left center;
@@ -217,15 +219,14 @@
   .box_header .cta_btn_inner a {
     padding: 0px 30px;
   }
-  .box_header .cta_btn_inner.yellow_btn a{
-    gap: 6px;
-  }
     .box_header .cta_btn_inner.yellow_btn a {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       height: 81px;
+      padding: 0 5px;
+      gap: 6px;
     }
 
     .wonder-header .wonder-cv-button-block {
