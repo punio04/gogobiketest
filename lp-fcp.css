@@ -15,7 +15,7 @@
   flex-direction: column;
   gap: 2px;
   font-size: 19px;
-  border: 1px solid #ff5800;
+  border: 1px solid #e24e00;
   padding: 0 25px;
   justify-content: center;
   align-items: center;
@@ -39,7 +39,7 @@
   display: flex;
   gap: 6px;
   flex-direction: column;
-  border: 1px solid #ff5800;
+  border: 1px solid #e24e00;
   border-radius: 4px;
 }
 
