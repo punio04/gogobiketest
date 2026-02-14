@@ -199,6 +199,10 @@
   .cta_btn_inner.yellow_btn {
     height: 81px;
   }
+
+  .phon_frame {
+    height: 107px!important;
+  }
   .box_header .cta_btn_inner.yellow_btn a {
     background-size: auto 26%;
     background-position: top calc(50% + 0px) left 14px;
