@@ -20,6 +20,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 4px;
+  height: 100%;
 }
 .wonder-header .wonder-header-inner .wonder-header-cta-wrapper .wonder-header-block,
 .wonder-header .wonder-header-inner .wonder-header-cta-wrapper .wonder-header-button-block-wrapper {
@@ -76,10 +77,9 @@
   font-size: 12px;
 }
 
-.box_header .cta_btn_inner a {
+.box_header .cta_btn_inner {
   display: block;
   width: 100%;
-  padding: 8px 50px;
   border-radius: 4px;
   text-align: center;
   font-weight: bold;
