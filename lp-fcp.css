@@ -44,6 +44,7 @@
   flex-direction: column;
   border: 1px solid #e24e00;
   border-radius: 4px;
+justify-content: center;
 }
 
 .box .cta_btn_inner a::after {
@@ -201,7 +202,7 @@
   }
 
   .phon_frame {
-    height: 107px!important;
+    height: 118px!important;
   }
   .box_header .cta_btn_inner.yellow_btn a {
     background-size: auto 26%;
